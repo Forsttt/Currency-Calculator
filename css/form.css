@@ -6,7 +6,7 @@
 }
 
 .form__fieldset {
-    border: 2px solid lightblue;
+    border: 5px solid #e2daf6;
     background-color: #eee;
     border-radius: 5px;
 }
@@ -20,13 +20,13 @@
 }
 
 .form__legend {
-    background-color: lightblue;
+    background-color: #e2daf6;
     padding: 10px;
     border-radius: 5px;
 }
 
 .button {
-    background-color: lightblue;
+    background-color: #e2daf6;
     padding: 10px;
     width: 200px;
     border: none;
@@ -34,5 +34,5 @@
 }
 
 .button:hover {
-    background-color: rgb(198, 225, 233);
+    background-color: #bfabf0;
 }
