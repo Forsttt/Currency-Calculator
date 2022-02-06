@@ -25,14 +25,18 @@
                 <legend class="form__legend">Kalkulator</legend>
                 <label>
                     <p>
-                        <span class="form__labelText">Euro:</span>
-                        <input class="form__field js-euro" name="euro" type="number" min="1" step="any" required>
+                        <span class="form__labelText">PLN:</span>
+                        <input class="form__field js-amount" name="amount" type="number" min="1" step="any" required>
                 </label>
                 </p>
                 <label>
                     <p>
-                        <span class="form__labelText">Kurs na Euro:</span>
-                        <input class="form__field js-rate" name="rate" type="number" required step="any" value=4.58 >
+                        <span class="form__labelText">Wybierz walute:</span>
+                        <select class="js-currency" name="chooseCurrency">
+                            <option value="EUR" class="form__field ">Euro - EUR</option>
+                            <option value="SEK" class="form__field ">Korona Szwedzka - SEK</option>
+                            <option value="CHF" class="form__field ">Frank Szwajcarski - CHF</option>
+                        </select>
                 </label>
                 </p>
             </fieldset>
@@ -40,8 +44,11 @@
                 <button class="button">Oblicz!</button>
             </p>
         </form>
-        <p>Wyliczone: <strong class="js-output"></strong></p>
+        <p>Wyliczone: <strong class="js-result"></strong></p>
     </div>
 </body>
 
 </html>
+
+<!-- <span class="form__labelText">Kurs na Euro:</span>
+                        <input class="form__field js-rate" name="rate" type="number" required step="any" value=4.58> -->
