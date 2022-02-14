@@ -10,6 +10,10 @@
     background-color: #eee;
     border-radius: 5px;
 }
+.form__currency {
+    border: 1px solid rgb(196, 191, 191);
+    border-radius: 5px;
+}
 
 .form__field {
     border: 1px solid rgb(196, 191, 191);
@@ -43,7 +47,7 @@
 
 .result {
     font-size: 25px;
-    background-color: #a590d8;
+    background-color: #ac94e2;
     border: 2px solid none;
     width: max-content;
     border-radius: 5px;
