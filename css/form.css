@@ -42,9 +42,12 @@
 }
 
 .result {
-    color:  white;
-    text-decoration:underline;
     font-size: 25px;
+    background-color: #a590d8;
+    border: 2px solid none;
+    width: max-content;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 @media (max-width:767px) {
