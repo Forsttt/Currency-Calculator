@@ -19,3 +19,7 @@ html {
     background-position: top;
     background-size: fill;
 }
+
+@media (max-width:767px) {
+
+    }
