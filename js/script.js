@@ -39,9 +39,11 @@ const init = () => {
   const formElement = document.querySelector(".js-form");
 
   formElement.addEventListener("submit", SubmitResponse);
+
+  welcome();
 };
 
-welcome();
+
 init();
 
 }
