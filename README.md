@@ -1,9 +1,19 @@
 # Currency-Calculator
 
-A currency Calculator that convert PLN to currently 3 currencies(CHN,EUR,SEK) of your choice.
+## Description
+
+A currency Calculator that convert PLN to currently 3 currencies **(CHN,EUR,SEK)** of your choice.
+
+### Demo
 
 https://forsttt.github.io/Currency-Calculator/
 
-preview
+### Preview
 
+![preview](images/preview.png)
 
+### Used 
+- Html
+- Css
+- JavaScript
+- BEM
