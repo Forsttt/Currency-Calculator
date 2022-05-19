@@ -13,13 +13,15 @@
 .form__currency {
     border: 1px solid rgb(196, 191, 191);
     border-radius: 5px;
+    max-width: 200px;
+    width: 100%;
 }
 
 .form__field {
     border: 1px solid rgb(196, 191, 191);
     padding: 10px;
-    max-width: 100%;
-    width: 500px;
+    max-width: 500px;
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -32,6 +34,7 @@
 .button {
     background-color: #e2daf6;
     padding: 10px;
+    max-width: 100%;
     width: 200px;
     border: none;
     border-radius: 5px;
@@ -49,10 +52,19 @@
     font-size: 25px;
     background-color: #ac94e2;
     border: 2px solid none;
-    width: max-content;
+    max-width: max-content;
     border-radius: 5px;
     padding: 10px;
+    
 }
 
 @media (max-width:767px) {
+    .form__field {
+        border: 1px solid rgb(196, 191, 191);
+        padding: 10px;
+        max-width: 500px;
+        width: 100%;
+        border-radius: 5px;
+        outline-color: #ac94e2;
+    }
 }
