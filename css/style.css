@@ -8,18 +8,26 @@ html {
 
 .container {
     max-width: 700px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 200px auto;
+    padding: 20px 20px;
     font-family: 'Oswald', sans-serif;
+    background-color: rgb(73 60 51);
+    border-radius: 20px;
+    display: grid;
 }
 
 .body {
-    background-image: url(https://cdn.discordapp.com/attachments/528665993409462312/942838368910344202/background.jpg);
+    background-image: url(/images/background2.jpg);
     background-repeat: repeat;
     background-position: top;
-    background-size: fill;
+    background-size:cover;
 }
 
 @media (max-width:767px) {
-
+    .container {
+        margin: 200px 20px;
+    }
+    .body {
+        background-size: auto;
+    }
     }
