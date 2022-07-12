@@ -17,7 +17,7 @@ html {
 }
 
 .body {
-    background-image: url(/images/background2.jpg);
+    background-image: url('/images/background2.jpg');
     background-repeat: repeat;
     background-position: top;
     background-size:cover;
